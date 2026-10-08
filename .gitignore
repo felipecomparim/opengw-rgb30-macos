@@ -1,0 +1,36 @@
+# Generated builds and release bundles
+/build/
+/dist/
+.DS_Store
+*.log
+__pycache__/
+
+# IDE caches and personal Windows settings
+*.ncb
+*.sdf
+*.suo
+*.user
+*.opensdf
+ipch/
+Debug/
+Release/
+x64/
+
+# Legacy Windows libraries are not used by the SDL2 ports
+*.dll
+*.exe
+*.obj
+*.pdb
+*.ilk
+SDL/lib/
+GLEW/bin/
+GLEW/lib/
+
+# Local credentials and game saves
+.env
+.env.*
+controls.cfg
+controls.cfg.tmp
+scores.sav
+highscores.txt
+highscores.txt.tmp
